@@ -16,6 +16,7 @@ int findpivot(int arr[] , int l, int r)
 	 return findpivot(arr,l,mid-1);
 	else return findpivot(arr,mid+1,r);
 }
+// random comment changes
 int binary(int arr[] , int l , int r , int x)
 {
 	int mid;
